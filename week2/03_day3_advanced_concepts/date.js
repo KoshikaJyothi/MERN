@@ -1,14 +1,5 @@
 let date=new Date();
-// 1. Create a Date object for current date & time.
-//        2. Extract and display:
-//                     * Year
-//                     * Month (human readable)
-//                     * Date
-//                     * Day of week
-//                     * Hours, minutes, seconds
 
-//       3. Display the date in this format:
-//                     DD-MM-YYYY HH:mm:ss
 console.log(date.toString());
 console.log("year:",date.getFullYear());
 console.log("month: ",date.getMonth()+1);
