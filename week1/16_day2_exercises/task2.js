@@ -1,0 +1,11 @@
+let co=['javascript','python','java','c++','ruby']
+let a=co.filter(t=>t.length>5)
+console.log(a)
+let b=co.map(t=>t.toUpperCase())
+console.log(b)
+let c=co.reduce((acc,e)=>acc+"| "+e)
+console.log(c)
+let d=co.find(t=>t=="python")
+console.log(d)
+let f=co.findIndex(t=>t=="java")
+console.log(f)

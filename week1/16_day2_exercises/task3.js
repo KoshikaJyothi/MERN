@@ -1,0 +1,11 @@
+const marks = [78, 92, 35, 88, 40, 67];
+let a=marks.filter(m=>m>40)
+console.log(a)
+let b=marks.map(m=>m+5)
+console.log(b)
+let c=marks.reduce((acc,e)=>acc>e?acc:e)
+console.log(c)
+let d=marks.find(t=>t<40)
+console.log(d)
+let f=marks.findIndex(t=>t==92)
+console.log(f)
