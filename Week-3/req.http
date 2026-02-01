@@ -1,0 +1,38 @@
+GET http://localhost:3000/user-api/users
+
+###
+POST http://localhost:3000/user-api/users
+Content-Type: application/json
+
+{
+    "id":201,
+    "name": "charan",
+    "age":20
+}
+
+###
+DELETE http://localhost:3000/user-api/user/201
+
+###
+GET http://localhost:3000/user-api/users/201
+
+###
+GET http://localhost:3000/product-api/products
+
+###
+POST http://localhost:3000/product-api/products
+Content-Type:application/json
+
+{
+    "productID":23,
+    "name":"laptop",
+    "price":65000,
+    "brand":"lenovo"
+}
+
+###
+PUT http://localhost:3000/product-api/product/23
+
+###
+DELETE http://localhost:3000/product-api/products
+<---------------------------------------------------------------------------------------------->

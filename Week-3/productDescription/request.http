@@ -1,0 +1,19 @@
+###
+GET http://localhost:4000/product-api/products
+
+###
+POST http://localhost:4000/product-api/products
+Content-Type:application/json
+
+{
+    "productID":23,
+    "name":"laptop",
+    "price":65000,
+    "brand":"lenovo"
+}
+
+###
+PUT http://localhost:4000/product-api/product
+
+###
+DELETE http://localhost:4000/product-api/products
