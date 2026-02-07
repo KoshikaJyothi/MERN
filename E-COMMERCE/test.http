@@ -1,0 +1,53 @@
+###
+GET http://localhost:4000/product-api/products
+
+###inserting products 
+POST http://localhost:4000/product-api/products
+Content-Type: application/json
+
+{
+    "productName":"Laptop",
+    "price":65000,
+    "brand":"lenovo"
+}
+
+
+###
+GET http://localhost:4000/user-api/users
+
+
+### inserting users
+POST http://localhost:4000/user-api/users
+Content-Type: application/json
+
+{
+    "name":"koshika",
+    "email":"koshi@gmail",
+    "password":"chanti",
+    "cart":[]
+
+}
+
+###for cart 
+PUT http://localhost:4000/user-api/user-cart/user-id/69818ab706701776fc88d57d/product-id/69818abb06701776fc88d581
+
+//findOne()
+//findById()
+
+//read user by id
+###
+GET http://localhost:4000/user-api/users/69818ab706701776fc88d57d
+
+###
+PUT http://localhost:4000/user-api/users/cart
+Content-Type: application/json
+
+{
+  "userId": "69818ab706701776fc88d57d",
+  "productId": "69818b9d1ea1782426b8a21f",
+  "quantity": 3
+}
+
+
+###
+GET http://localhost:4000/user-api/compare/69818ab706701776fc88d57d
