@@ -1,0 +1,38 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:antiquewhite;
+}
+.parent{
+  position: relative;
+    margin:auto;
+    margin-top: 100px;
+    text-align: center;
+    padding:10px;
+    width:500px;
+    height: 500px;
+    background-color: whitesmoke;   
+}
+img{
+    width:200px;
+    height:200px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+h3{
+    color:cornflowerblue;
+    margin-bottom: 3px;
+}
+h4{
+    color:cornflowerblue;
+    margin-bottom: 5px;
+}
+.child{
+    position: absolute;
+    top:300px;
+    bottom:100px;
+    left:300px;
+}

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+ 
+    max-width:700px;
+    height: 700px;
+    margin:auto;
+    margin-top: 150px;
+    border:1px solid black;
+    /* flex container */
+    display:flex;
+    /* direction */
+    /*flex-direction: row;
+    /* horizontal*/
+   justify-content:space-around;
+   flex-wrap: wrap;
+    /* vertical */
+   /* align-items:center ;*/
+}
+.child{
+     width:100px;
+    height:100px;
+}
+.child1{
+    background-color: red;
+ 
+}
+.child2{
+
+    background-color: green;
+   
+}
+.child3{
+     background-color: blue;
+  
+}
+body{
+    height: 2000px;
+}

@@ -1,0 +1,41 @@
+body{
+    background-color:antiquewhite;
+}
+
+@media screen and (min-width:501px) {
+ .img1{
+    display:none;
+ }
+ .img2{
+    display:none;
+ }
+ body{
+    background-color: aqua;
+ }
+}
+
+@media screen and (min-width:600px){
+ .img1{
+    width: 100px;
+     height: 100px;
+ }
+ .img2{
+    display:none;
+ }
+ body{
+    background-color: blanchedalmond;
+ }
+}
+
+@media screen and (min-width: 1000px){
+ .img2{
+    width:100px;
+     height:100px;
+ }
+ .img1{
+    display:none;
+ }
+ body{
+    background-color: blueviolet;
+ }
+}
